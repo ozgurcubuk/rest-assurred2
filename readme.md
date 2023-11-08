@@ -1,4 +1,4 @@
-# Steps to run test
+# Prerequisite
 - ```docker should be installed on your local machine```
 - ```docker desktop required to follow-up; docker image creation, docker container creation and test logs via container terminal```
 
