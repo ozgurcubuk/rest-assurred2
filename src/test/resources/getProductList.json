@@ -1,0 +1,146 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1694393661.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items":{
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "description",
+      "price",
+      "isBasketDiscount",
+      "rating",
+      "stock",
+      "brand",
+      "category",
+      "images"
+    ],
+    "properties": {
+      "id": {
+        "$id": "#root/items/id",
+        "title": "Id",
+        "type": "integer",
+        "examples": [
+          1
+        ],
+        "default": 0
+      },
+      "title": {
+        "$id": "#root/items/title",
+        "title": "Title",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Apple iPad 9. Nesil 64 GB"
+        ],
+        "pattern": "^.*$"
+      },
+      "description": {
+        "$id": "#root/items/description",
+        "title": "Description",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Lorem ipsum dolor sit amet."
+        ],
+        "pattern": "^.*$"
+      },
+      "price": {
+        "$id": "#root/items/price",
+        "title": "Price",
+        "type": "integer",
+        "examples": [
+          5400
+        ],
+        "default": 0
+      },
+      "isBasketDiscount": {
+        "$id": "#root/items/isBasketDiscount",
+        "title": "Isbasketdiscount",
+        "type": "boolean",
+        "examples": [
+          true
+        ],
+        "default": true
+      },
+      "basketDiscountPercentage": {
+        "$id": "#root/items/basketDiscountPercentage",
+        "title": "Basketdiscountpercentage",
+        "type": "integer",
+        "examples": [
+          10
+        ],
+        "default": 0
+      },
+      "rating": {
+        "$id": "#root/items/rating",
+        "title": "Rating",
+        "type": "number",
+        "examples": [
+          4.69
+        ],
+        "default": 0.0
+      },
+      "stock": {
+        "$id": "#root/items/stock",
+        "title": "Stock",
+        "type": "integer",
+        "examples": [
+          50
+        ],
+        "default": 0
+      },
+      "isActive": {
+        "$id": "#root/items/isActive",
+        "title": "Isactive",
+        "type": "boolean",
+        "examples": [
+          false
+        ],
+        "default": true
+      },
+      "brand": {
+        "$id": "#root/items/brand",
+        "title": "Brand",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Apple"
+        ],
+        "pattern": "^.*$"
+      },
+      "category": {
+        "$id": "#root/items/category",
+        "title": "Category",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "ipad"
+        ],
+        "pattern": "^.*$"
+      },
+      "images": {
+        "$id": "#root/items/images",
+        "title": "Images",
+        "type": "array",
+        "default": [],
+        "items":{
+          "$id": "#root/items/images/items",
+          "title": "Items",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "https://cdn.dsmcdn.com/ty321/product/media/images/20220204/14/43694637/262004743/1/1_org_zoom.jpg"
+          ],
+          "pattern": "^.*$"
+        }
+      }
+    }
+  }
+}
