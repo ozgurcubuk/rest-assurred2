@@ -11,7 +11,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static objects.PetStatus.available;
 
-public class DeleteAPet extends RequestBase {
+public class DeleteAPetTest extends RequestBaseTest {
 
     private final String path = "/pet/1234567899";
     private final String pathToPost = "/pet";
