@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class UpdateAPathTest extends RequestBaseTest {
+public class UpdateAPath extends RequestBase {
 
     private final String path = "/pet/1234567890";
     private final String pathWithNonExistedPetId = "/pet/1234567891";

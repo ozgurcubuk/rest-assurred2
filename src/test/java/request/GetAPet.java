@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.testng.Assert.*;
 
-public class GetAPetTest extends RequestBaseTest {
+public class GetAPet extends RequestBase {
 
     private final String path = "/pet/1234567890";
     private final String nonExistedPetInPath = "/pet/1234567891";
