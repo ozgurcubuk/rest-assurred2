@@ -9,7 +9,7 @@ import static org.testng.Assert.*;
 
 public class GetAPetTest extends RequestBase {
 
-    private final String path = "/pet/1234567890";
+    private final String path = "/pet/1234567898";
     private final String nonExistedPetInPath = "/pet/1234567891";
 
     @Test
@@ -24,7 +24,7 @@ public class GetAPetTest extends RequestBase {
                         .extract().as(Pet.class);
 
         assertFalse(petResponse.getName().isEmpty());
-        assertEquals(petResponse.getId(), 1234567890);
+        assertEquals(petResponse.getId(), 1234567898);
     }
 
     @Test
