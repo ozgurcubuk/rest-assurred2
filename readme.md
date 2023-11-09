@@ -1,12 +1,10 @@
-# Steps to run test
-After cloning projects(dummy server and test project) into your local repository, you need
-to launch two containers; one for dummy server the other one for actual test project
+# Prerequisite
+- ```docker should be installed on your local machine```
+- ```docker desktop required to follow-up; docker image creation, docker container creation and test logs via container terminal```
 
-## Apply below the steps for launching a dummy server container
-- Go to root directory of Node project(https://github.com/ozgurcubuk/node-mock-api.git)
-- ```docker build -t node-mock-api .```
-- ```docker run -dp 127.0.0.1:8080:8080 node-mock-api```
-- Go to container terminal and verify that to mock node api is launched
+# Steps to run test
+After cloning project into your local repository, you need
+to launch a container for test project
 
 ## Apply below the steps for launching rest-assurred test project container
 - Go to root directory of Java Rest-assurred project
