@@ -13,7 +13,7 @@ import static objects.PetStatus.available;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertNotNull;
 
-public class PostPet extends RequestBase {
+public class PostPetTest extends RequestBase {
 
     private final String path = "/pet";
 
