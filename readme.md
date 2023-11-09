@@ -10,4 +10,4 @@ to launch a container for test project
 - Go to root directory of Java Rest-assurred project
 - ```docker build -t rest-assurred-test .```
 - ```docker run -dp 127.0.0.1:8081:8081 rest-assurred-test```
-- Go to container terminal and follow-up the logs produced for test run
+- Go to container terminal via Docker Desktop and follow-up the logs produced for test run
